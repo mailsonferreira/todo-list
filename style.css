@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 0;
 }
 
 body {
@@ -44,4 +45,20 @@ a {
     text-decoration: none;
     color:black;
   
+}
+
+input {
+    padding: 15px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    margin: 5px 0 5px 5px;
+    width: 405px;
+}
+
+button {
+    padding: 15px;  
+    border-radius: 0 5px 5px 0px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
 }
